@@ -6,7 +6,7 @@ a circle progress bar with effect
 ![gif](https://github.com/ldoublem/RingProgress/blob/master/shot/shot2.gif)
 ![gif](https://github.com/ldoublem/RingProgress/blob/master/shot/shot3.gif)
 ##Usage  xml
-```
+```xml
  <com.ldoublem.ringPregressLibrary.RingProgress
         android:id="@+id/ring_progress"
         android:layout_width="200dp"
@@ -23,7 +23,7 @@ a circle progress bar with effect
   </com.ldoublem.ringPregressLibrary.RingProgress>
 ```
 ##java
-```
+```java
       mRingProgress.setSweepAngle(360f);
       mRingProgress.setDrawBg(true, Color.rgb(168, 168, 168));
       mRingProgress.setDrawBgShadow(true, Color.argb(100, 235, 79, 56));
